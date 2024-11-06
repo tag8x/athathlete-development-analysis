@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Emel Bilgi Toplama Formu</title>
+</head>
+<body>
+    <h1>Sporcu Bilgi Toplama Formu</h1>
+    <form method="post" action="/">
+        <label for="isim">İsim:</label>
+        <input type="text" id="isim" name="isim"><br><br>
+
+        <label for="yas">Yaş:</label>
+        <input type="number" id="yas" name="yas"><br><br>
+
+        <label for="cinsiyet">Cinsiyet:</label>
+        <select id="cinsiyet" name="cinsiyet">
+            <option value="erkek">Erkek</option>
+            <option value="kadin">Kadın</option>
+            <option value="diger">Diğer</option>
+        </select><br><br>
+
+        <label for="spor_dali">Spor Dalı:</label>
+        <input type="text" id="spor_dali" name="spor_dali"><br><br>
+
+        <label for="pozisyon">Pozisyon:</label>
+        <input type="text" id="pozisyon" name="pozisyon"><br><br>
+
+        <label for="antrenman_suresi">Antrenman Süresi ve Sıklığı:</label>
+        <input type="text" id="antrenman_suresi" name="antrenman_suresi"><br><br>
+
+        <label for="beslenme_duzeni">Beslenme Düzeni:</label>
+        <textarea id="beslenme_duzeni" name="beslenme_duzeni"></textarea><br><br>
+
+        <label for="uyku_aliskanliklari">Uyku Alışkanlıkları:</label>
+        <textarea id="uyku_aliskanliklari" name="uyku_aliskanliklari"></textarea><br><br>
+
+        <button type="submit">Gönder</button>
+    </form>
+</body>
+</html>
